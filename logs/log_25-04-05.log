@@ -1,0 +1,5 @@
+2025-04-05 21:38:49,311 - INFO - data ingestion started
+2025-04-05 21:38:49,311 - INFO - data ingestion directory created
+2025-04-05 21:38:49,486 - INFO - Raw data loaded successfully with shape: (103594, 25)
+2025-04-05 21:38:49,507 - INFO - training and testing data splitted successfully
+2025-04-05 21:38:49,956 - INFO - training and testing data saved successfully

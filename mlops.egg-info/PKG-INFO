@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mlops
+Version: 0.1
+Summary: mlops project
+Author: Kishore
+Author-email: abc@gmail.com
+Requires-Python: >=3.7
