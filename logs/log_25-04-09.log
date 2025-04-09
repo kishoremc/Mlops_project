@@ -1,0 +1,22 @@
+2025-04-09 07:45:38,223 - INFO - Starting the pipeline of Data Procesing
+2025-04-09 07:45:38,223 - INFO - Data Processing started
+2025-04-09 07:45:38,379 - INFO - Data read successfull : Data shape : (82875, 25)
+2025-04-09 07:45:38,379 - INFO - Dropping Unnecesary Columns :  ['MyUnknownColumn', 'id']
+2025-04-09 07:45:38,393 - INFO - Columns dropped Sucesfully : Shape = (82875, 23)
+2025-04-09 07:45:38,395 - INFO - Handling outliers : Columns = ['Flight Distance', 'Departure Delay in Minutes', 'Arrival Delay in Minutes', 'Checkin service']
+2025-04-09 07:45:38,423 - INFO - Outliers handled  Sucesffuully : (82875, 23)
+2025-04-09 07:45:38,423 - INFO - Handling null values
+2025-04-09 07:45:38,425 - INFO - Missing values handled sucessfully : Shape == (82875, 23)
+2025-04-09 07:45:38,425 - ERROR - Problem while saving data
+2025-04-09 07:45:38,425 - ERROR - Error ocuured in Data Processing Pipleine : Error in D:\practice\DS\MlOps\MLops Projects\Airline_customer_satisfaction_Prediction\src\data_processing.py , line 68 : Error while saving data : 
+2025-04-09 08:07:26,018 - INFO - Starting the pipeline of Data Procesing
+2025-04-09 08:07:26,018 - INFO - Data Processing started
+2025-04-09 08:07:26,219 - INFO - Data read successfull : Data shape : (82875, 25)
+2025-04-09 08:07:26,219 - INFO - Dropping Unnecesary Columns :  ['MyUnknownColumn', 'id']
+2025-04-09 08:07:26,222 - INFO - Columns dropped Sucesfully : Shape = (82875, 23)
+2025-04-09 08:07:26,222 - INFO - Handling outliers : Columns = ['Flight Distance', 'Departure Delay in Minutes', 'Arrival Delay in Minutes', 'Checkin service']
+2025-04-09 08:07:26,271 - INFO - Outliers handled  Sucesffuully : (82875, 23)
+2025-04-09 08:07:26,271 - INFO - Handling null values
+2025-04-09 08:07:26,271 - INFO - Missing values handled sucessfully : Shape == (82875, 23)
+2025-04-09 08:07:26,920 - INFO - Processed data saved sucesfully
+2025-04-09 08:07:26,920 - INFO - Data Proccesing Pipeline COmpleted Sucessfully
