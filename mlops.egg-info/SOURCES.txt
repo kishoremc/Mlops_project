@@ -15,5 +15,6 @@ src/database_extraction.py
 src/feature_engineering.py
 src/logger.py
 src/model_selection.py
+src/model_training.py
 utils/__init__.py
 utils/helpers.py

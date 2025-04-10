@@ -7,3 +7,5 @@ lightgbm
 xgboost
 tensorboard
 torch
+matplotlib
+mlflow

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/practice/DS/MlOps/MLops%20Projects/Airline_customer_satisfaction_Prediction/mlruns/375021674123346395/3b71b0f5fbaa422aa59d26b3a2b4a203/artifacts
+end_time: 1744299082088
+entry_point_name: ''
+experiment_id: '375021674123346395'
+lifecycle_stage: active
+run_id: 3b71b0f5fbaa422aa59d26b3a2b4a203
+run_name: bouncy-pug-209
+run_uuid: 3b71b0f5fbaa422aa59d26b3a2b4a203
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744298972305
+status: 3
+tags: []
+user_id: AL5393
