@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/practice/DS/MlOps/MLops%20Projects/Airline_customer_satisfaction_Prediction/mlruns/375021674123346395/e2acb019f4b04146a4cf734e3345311f/artifacts
+end_time: 1744334013479
+entry_point_name: ''
+experiment_id: '375021674123346395'
+lifecycle_stage: active
+run_id: e2acb019f4b04146a4cf734e3345311f
+run_name: thoughtful-rook-243
+run_uuid: e2acb019f4b04146a4cf734e3345311f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744333969635
+status: 3
+tags: []
+user_id: AL5393

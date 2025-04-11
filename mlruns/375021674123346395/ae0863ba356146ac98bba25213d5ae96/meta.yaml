@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/practice/DS/MlOps/MLops%20Projects/Airline_customer_satisfaction_Prediction/mlruns/375021674123346395/ae0863ba356146ac98bba25213d5ae96/artifacts
+end_time: 1744334903642
+entry_point_name: ''
+experiment_id: '375021674123346395'
+lifecycle_stage: active
+run_id: ae0863ba356146ac98bba25213d5ae96
+run_name: angry-dog-362
+run_uuid: ae0863ba356146ac98bba25213d5ae96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744334859219
+status: 3
+tags: []
+user_id: AL5393
