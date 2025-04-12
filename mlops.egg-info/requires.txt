@@ -11,3 +11,6 @@ matplotlib
 mlflow
 dvc
 flask
+pylint
+flake8
+black
