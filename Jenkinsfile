@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        VENV_ENVIRONMENT = venv
+        VENV_ENVIRONMENT = 'venv'
     }
     
     stages {
