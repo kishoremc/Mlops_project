@@ -99,5 +99,15 @@ pipeline {
                 }
             }
         }
+
+        stage('AWS Deployment') {
+            steps {
+                script {
+                    // AWS Deployment
+                    echo 'AWS Deployment........'
+                    sh "aws ecs update-service --cluster dataguru_ecs --service dataguru_service --force-new-deployment"
+                }
+            }
+        }
     }
 }
