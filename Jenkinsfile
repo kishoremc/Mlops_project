@@ -3,6 +3,9 @@ pipeline {
 
     environment {
         VENV_DIR = 'venv'
+        DOCKERHUB_CREDENTIAL_ID = 'mlops-dockerhub'
+        DOCKERHUB_REGISTRY = 'https://registry.hub.docker.com'
+        DOCKERHUB_REPOSITORY = 'kishoremc/prediction-mlops-app'
     }
     
     stages {
@@ -62,7 +65,7 @@ pipeline {
                 script {
                     // Building Docker Image
                     echo 'Building Docker Image........'
-                    docker.build("mlops")
+                    dockerImage = docker.build("${DOCKERHUB_REPOSITORY}:latest")
                 }
             }
         }
@@ -73,7 +76,7 @@ pipeline {
                     // Scanning Docker Image
                     echo 'Scanning Docker Image........'
                     sh '''
-                        trivy image mlops:latest \
+                        trivy image ${DOCKERHUB_REPOSITORY}:latest \
                             --format table \
                             --timeout 10m \
                             --scanners vuln \
@@ -81,6 +84,18 @@ pipeline {
                             --skip-files app/artifacts/raw/data.csv \
                             -o trivy-image-scan-report.html
                     '''
+                }
+            }
+        }
+
+        stage('Pushing Docker Image') {
+            steps {
+                script {
+                    // Pushing Docker Image
+                    echo 'Pushing Docker Image........'
+                    docker.withRegistry("${DOCKERHUB_REGISTRY}" , "${DOCKERHUB_CREDENTIAL_ID}"){
+                        dockerImage.push('latest')
+                    }
                 }
             }
         }
